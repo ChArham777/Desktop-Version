@@ -235,3 +235,170 @@ nav .hamburgerIcon {
     align-items: flex-start;
     gap: 0.75rem;
   }
+  .toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .skills .ldis {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+  }
+  
+  .langDisplay {
+    width: 100%;
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .langDisplay > .lang {
+    width: 100%;
+    display: flex;
+    padding: 0.5625rem 0.75rem 0.60725rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: #f7f7f9;
+  }
+  
+  .lang .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lang p {
+    flex-grow: 1;
+  }
+  
+  .contact {
+    position: relative;
+    padding: 4em 3em;
+    background-image: url('./img/Contact\ me.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .contact::after {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0;
+    bottom: 0;
+    left: 40%;
+    background-image: url('./img/contact\ form\ shapes-mobile@2x.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+  
+  .contact .ContactForm {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  
+  .ContactForm .headings {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .headings h2 {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+  }
+  
+  .headings p {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    color: #ebebff;
+  }
+  
+  .form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.86rem;
+  }
+  
+  .form input {
+    padding: 0.48em 0.3em;
+    border-radius: 3px;
+    border: 1px solid #cfd8dc;
+    background: #fff;
+  }
+  
+  .form textarea {
+    padding: 0.3em;
+    resize: none;
+    border-radius: 2px;
+  }
+  
+  .form input[type='button'] {
+    align-self: flex-start;
+    display: inline-block;
+    font-size: 17px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.51px;
+    color: #6070ff;
+  }
+  
+  .shape {
+    min-height: 5px;
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #0d151e;
+  }
+  
+  .unorderList {
+    display: none;
+  }
+  
+  .unorderList li {
+    list-style: none;
+  }
+  
+  .unorderList li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #344563;
+    font-size: 0.938rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
