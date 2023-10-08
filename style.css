@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0.3em 0.7em;
+  justify-content: space-between;
+}
+
+nav .logo {
+  font-weight: 700;
+  color: #6070ff;
+  cursor: pointer;
+}
+
+nav .hamburgerIcon {
+  display: flex;
+  align-items: center;
+}
+
+.profileSect {
+  background-image: url('assets/header-shapes\ mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.profileSect .profile {
+  display: flex;
+  padding: 7.125em 1.5em;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.profile .name {
+  color: #172b4d;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem;
+}
+
+.profile .dexcription {
+  color: #344563;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.profile .socialMedia {
+  color: #7f8cff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
