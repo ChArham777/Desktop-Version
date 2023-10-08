@@ -290,7 +290,7 @@ nav .hamburgerIcon {
   .contact {
     position: relative;
     padding: 4em 3em;
-    background-image: url('./img/Contact\ me.png');
+    background-image: url('assets/Contact\ me.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ nav .hamburgerIcon {
     right: 0;
     bottom: 0;
     left: 40%;
-    background-image: url('./img/contact\ form\ shapes-mobile@2x.png');
+    background-image: url('assets/contact\ form\ shapes-mobile.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -401,4 +401,95 @@ nav .hamburgerIcon {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  
+    nav {
+      padding: 2em 8.9375em;
+    }
+  
+    .unorderList {
+      display: flex;
+      gap: 0.625rem;
+      align-items: center;
+    }
+  
+    nav .hamburgerIcon {
+      display: none;
+    }
+  
+    .profileSect {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 18.063em calc(10vw + 4em);
+      background-image: url('assets/Header\ bg.svg');
+    }
+  
+    .main {
+      padding: 8.875em;
+      gap: 8.875em;
+    }
+  
+    .main > * {
+      flex-direction: row;
+      gap: 1rem;
+    }
+  
+    .main > * > * {
+      flex: 1;
+    }
+  
+    .mainThree > .mainSpecs {
+      order: -1;
+    }
+  
+    .selfSect {
+      background-image: url('assets/about\ myself\ -\ background-\ shape-\ desktop.png');
+      padding: calc(4.875em + 4vw);
+      flex-direction: row;
+    }
+  
+    .skills {
+      align-items: flex-start;
+    }
+  
+    .langDisplay {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  
+    .langDisplay > * {
+      flex-direction: column;
+      align-self: stretch;
+    }
+  
+    .langDisplay > * > * {
+      align-self: flex-start;
+    }
+  
+    .contact {
+      padding: 8em calc(18vw + 4.5em);
+      z-index: 1;
+      background-image: url('assets/Contact\ me.png');
+    }
+  
+    .contact::after {
+      top: 0%;
+      left: 0;
+      z-index: -1;
+      background-image: url('assets/shapes.png');
+    }
+  
+    .form input[type='button'] {
+      align-self: center;
+    }
+  
+    .shape {
+      display: none;
+    }
   }
